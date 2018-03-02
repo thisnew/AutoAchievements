@@ -73,7 +73,7 @@ class Login(object):
 
 
             self.en_user = Entry(self.root, width=20)
-            self.en_passwd = Entry(self.root, width=20)
+            self.en_passwd = Entry(self.root, width=20,show='*')
             self.en_user.insert(0,dict.get('[ID]'))
             self.en_passwd.insert(0,dict.get('[code]'))
 
