@@ -5,6 +5,9 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 import time
 import sys
 import os
@@ -114,10 +117,16 @@ class Perform:
                #
                print(indexarry)
                print(indexpersent)
-               if '7299443944487013551' or '3811026317094570347' in indexarry:
-                   driver.find_element_by_xpath('//*[@id = "rpInputChange"]').send_keys(Keys.BACKSPACE)
-                   driver.find_element_by_xpath('//*[@id = "rpInputChange"]').send_keys('5')
-                   driver.find_element_by_xpath('//*[@id="grid_go"]').click()
+               driver.find_element_by_xpath('//*[@id = "rpInputChange"]').send_keys(Keys.BACKSPACE)
+               driver.find_element_by_xpath('//*[@id = "rpInputChange"]').send_keys('5')
+               driver.find_element_by_xpath('//*[@id="grid_go"]').click()
+
+               #driver.implicitly_wait(5)
+               #WebDriverWait(driver, 超时时长, 调用频率, 忽略异常).until(可执行方法, 超时时返回的信息)
+
+               loder=(By.XPATH,'//*[@id="row7299443944487013551"]/td[1]/div/input')
+               WebDriverWait(driver,20,0.5).until(EC.presence_of_element_located(loder))
+
                for index in indexarry:
                    mypath= '//*[@id="row'+index+'"]/td[1]/div/input'
                    selectIndex = driver.find_element_by_xpath(mypath)
