@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from tkinter import *
-from com.thisnew.NextDayOverTime import PythonOrgSearch as job
+from other.NextDayOverTime import PythonOrgSearch as job
 import time
 import os
 try:
@@ -70,7 +70,7 @@ class Login(object):
                 self.en_user.insert(0, list[0])
                 self.en_passwd.insert(0, list[1])
                 self.en_stime.insert(0, u'01')
-                self.en_reson.insert(0, u'值班')
+                self.en_reson.insert(0, list[2])
             else:
                 self.en_user.insert(0, u'input you name')
                 self.en_passwd.insert(0, u'input you password')

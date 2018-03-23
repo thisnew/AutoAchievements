@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 from tkinter import *
-from com.thisnew.NextDayOverTime import PythonOrgSearch as job
+from other.NextDayOverTime import PythonOrgSearch as job
 import time
 import os
+import tkinter.messagebox as MG
 try:
     from ttk import Entry, Button
 except ImportError:
@@ -12,7 +13,7 @@ class Login(object):
             self.root = Tk()
             self.root.title(u'用户登录')
             self.root.resizable(False, False)
-            self.root.geometry('+500+500')
+            self.root.geometry('+600+500')
             self.lb_user = Label(self.root, text=u'用户名：', padx=5)
             self.lb_passwd = Label(self.root, text=u'密码：', padx=5)
 
@@ -44,6 +45,7 @@ class Login(object):
             self.checkconf()
             self.root.mainloop()
 
+
             def validate_func(self, en):
                 return False if eval(en).get().strip() != '' else True
 
@@ -56,10 +58,17 @@ class Login(object):
             real_en4_value=nowtime+en3_value+" 20:00"
             en4_value = self.en_stime.get().strip()
             en5_value = self.en_reson.get().strip()
-            #print(real_en3_value,real_en4_value)
+            print(real_en3_value,real_en4_value)
             isok=job.test_search_in_python_org(en1_value,en2_value,real_en3_value,real_en4_value,en5_value)
-            #print(isok)
+            #isok="ture"
 
+            if isok=="ture":
+                MG.showinfo(title="完成", message="已保存至待发事项，请注意及时发送")
+                sys.exit(0)
+            else:
+                MG.showerror(title="失败", message="失败 可以再尝试下，或者放弃")
+
+                #print(isok)
         def checkconf(self):
             if os.path.exists("local.conf") and os.path.getsize("local.conf")!= 0:
                 list = []
@@ -70,7 +79,7 @@ class Login(object):
                 self.en_user.insert(0, list[0])
                 self.en_passwd.insert(0, list[1])
                 self.en_stime.insert(0, u'01')
-                self.en_reson.insert(0, u'值班')
+                self.en_reson.insert(0, list[2])
             else:
                 self.en_user.insert(0, u'input you name')
                 self.en_passwd.insert(0, u'input you password')
