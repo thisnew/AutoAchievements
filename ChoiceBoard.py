@@ -11,12 +11,15 @@ try:
     from ttk import Entry, Button
 except ImportError:
     pass
+
+
+
 class Login(object):
         def __init__(self):
             self.root = Tk()
             self.root.title(u'用户登录')
             self.root.resizable(False, False)
-            self.root.geometry('350x530+700+300')
+            self.root.geometry('400x660-100+200')
 
             self.xmlpath = StringVar()
             dict=self.checkconf()
@@ -25,6 +28,7 @@ class Login(object):
             self.lb_passwd = Label(self.root, text=u'密码：', padx=5)
             self.checkDep_lab = Label(self.root, text=u'所属部门：', padx=5)
             self.checkRo_lab = Label(self.root, text=u'角色选择：', padx=5)
+            self.checkRo_group = Label(self.root, text=u'小组选择：', padx=5)
             self.check_lab1 = Label(self.root, text=u' ', padx=1)
             self.check_lab2 = Label(self.root, text=u'', padx=1)
 
@@ -32,11 +36,11 @@ class Login(object):
             self.deptset.set(dict.get('[dept]'))
             self.roalset = StringVar()
             self.roalset.set(dict.get('[role]'))
+            self.group = eval(dict.get('[group]'))
 
             self.checkfrom1 =Radiobutton(self.root,text="项目",variable=self.deptset,value="1")
             self.checkfrom2 =Radiobutton(self.root,text="研发",variable=self.deptset,value="2")
             self.checkfrom3 =Radiobutton(self.root,text="运维",variable=self.deptset,value="3")
-
             self.checkroal1 =Radiobutton(self.root,text="JAVA工程师",variable=self.roalset,value="1")
             self.checkroal2 =Radiobutton(self.root,text="UI设计师",variable=self.roalset,value="2")
             self.checkroal3 =Radiobutton(self.root,text="IOS工程师",variable=self.roalset,value="3")
@@ -59,6 +63,7 @@ class Login(object):
             self.checkfrom3.grid(row=4, column=1, sticky=W)
 
             self.checkRo_lab.grid(row=5, column=0, sticky=W)
+            self.checkRo_group.grid(row=16, column=0, sticky=W)
 
             self.checkroal1.grid(row=6, column=1, sticky=W)
             self.checkroal2.grid(row=7, column=1, sticky=W)
@@ -71,6 +76,14 @@ class Login(object):
             self.checkroal9.grid(row=14, column=1, sticky=W)
             self.checkroal0.grid(row=15, column=1, sticky=W)
 
+            self.choicegroup =StringVar()
+            self.choicegroup.set('小组一')
+
+            num=0
+            for i in self.group.keys():
+                num = num+1
+                setattr(self,'group_',Radiobutton(self.root, text=self.group[i], variable=self.choicegroup, value=i).grid(row=16+num, column=1, sticky=W))
+            num=0
 
             self.en_user = Entry(self.root, width=20)
             self.en_passwd = Entry(self.root, width=20,show='*')
@@ -81,16 +94,17 @@ class Login(object):
             self.check_lab2['text']=dict.get('xml_path')
             self.en_user.grid(row=0, column=1, columnspan=1)
             self.en_passwd.grid(row=1, column=1, columnspan=1)
-            self.check_lab1.grid(row=20)
-            self.check_lab2.grid(row=21)
+            self.check_lab1.grid(row=25)
+            self.check_lab2.grid(row=26)
+
 
             self.var = IntVar()
             self.ckb = Checkbutton(self.root, text=u'记住用户名和密码以及设置', underline=0,
                                    variable=self.var)
-            self.ckb.grid(row=18, column=0)
+            self.ckb.grid(row=22, column=0)
 
             self.bt_print = Button(self.root, text=u'确定', width=20)
-            self.bt_print.grid(row=19, column=1, sticky=E, pady=5)
+            self.bt_print.grid(row=23, column=1, sticky=E, pady=5)
             self.bt_print.config(command=self.print_info)
 
             self.root.mainloop()
@@ -130,6 +144,7 @@ class Login(object):
                                +' 17:30'
             sendmes['xml_lastday']=time.strftime('%m', time.localtime(time.time()))+'月'\
                                +str(calendar.monthrange(datetime.now().year,datetime.now().month)[1])+'日'
+            sendmes['group']=self.choicegroup.get()
             #isok=runwork.test(sendmes)
             isok=runwork.doLoginSession(sendmes)
             #isok="ture"
@@ -139,6 +154,7 @@ class Login(object):
                 sys.exit(0)
             else:
                 MG.showerror(title="失败", message="失败 可以再尝试下，或者放弃")
+                sys.exit(0)
 
         def saveconf(self):
             f = open("local.conf", 'r')  # 以读方式打开文件

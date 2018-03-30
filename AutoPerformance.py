@@ -1,6 +1,7 @@
 # coding=utf-8
 import unittest
 import logging
+import logging.config
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import TimeoutException
@@ -13,15 +14,19 @@ import sys
 import os
 from openpyxl import load_workbook
 
+logging.config.fileConfig('logging.conf')
+logger = logging.getLogger('main')
+
 class Perform:
    def test(sendmes):
-      print(sendmes['en_user'])
+      logger.info(sendmes['en_user'])
 
       return 'ture'
    def doLoginSession(sendmes):
           try:
+               logger.info('----- 开始----')
                driver = webdriver.Chrome(executable_path="bin/chromedriver.exe")
-               print("wait install ")
+               logger.info('-----Install driver----')
                driver.implicitly_wait(3)
                driver.get("http://113.231.68.122/seeyon/index.jsp")
                elemuser = driver.find_element_by_id("login_username")
@@ -39,8 +44,8 @@ class Perform:
                # 268599543846224672-anchor 项目
                # 4218208322934425649-anchor 运维
                getFrame = driver.find_element_by_id("zwIframe")
-               print('外部')
-               print(getFrame)
+               #logger.info('外部')
+               #logger.info(getFrame)
                driver.switch_to.frame(getFrame)
                datakey=driver.find_element_by_xpath('// *[ @ id = "field0008"]')
                for i in range(20):
@@ -48,13 +53,13 @@ class Perform:
                driver.find_element_by_xpath('// *[ @ id = "field0008"]').send_keys(sendmes['lastday'])
                #获取span
                but_spans_cent = driver.find_element_by_xpath('//*[@id="field0002_span"]/span')
-               print(but_spans_cent)
+               logger.info(but_spans_cent)
                but_spans_cent.click()
                #返回默认
                driver.switch_to.default_content()
                getSelectPeopleFrame = driver.find_element_by_id("SelectPeopleDialog_main_iframe_content")
-               print('内部：')
-               print(getSelectPeopleFrame)
+               logger.info('内部：')
+               logger.info(getSelectPeopleFrame)
                driver.switch_to.frame(getSelectPeopleFrame)
                listroot= driver.find_element_by_id("2384162786666955069-anchor")
                ActionChains(driver).double_click(listroot).perform()
@@ -67,17 +72,18 @@ class Perform:
                done.click()
                #---------部门选择-----------------------------------------------------------
                # 部门
+               logger.info('----- 中心填写完成----')
                getFrame = driver.find_element_by_id("zwIframe")
-               print('外部')
-               print(getFrame)
+               logger.info('外部')
+               logger.info(getFrame)
                driver.switch_to.frame(getFrame)
                but_spans_dept = driver.find_element_by_xpath('//*[@id="field0091_span"]/span')
-               print(but_spans_dept)
+               logger.info(but_spans_dept)
                but_spans_dept.click()
                driver.switch_to.default_content()
                getSelectPeopleFrame = driver.find_element_by_id("SelectPeopleDialog_main_iframe_content")
-               print('内部：')
-               print(getSelectPeopleFrame)
+               logger.info('----- 部门填写完成----')
+               logger.info(getSelectPeopleFrame)
                driver.switch_to.frame(getSelectPeopleFrame)
                listroot = driver.find_element_by_id(setDept)
                ActionChains(driver).double_click(listroot).perform()
@@ -90,13 +96,13 @@ class Perform:
                #_____________________________________________
 
                getFrame = driver.find_element_by_id("zwIframe")
-               print('外部')
-               print(getFrame)
+               logger.info('外部')
+               logger.info(getFrame)
                driver.switch_to.frame(getFrame)
                # driver.execute_script("showRelationList(this)")  //*[@id="row-7824964076276987674"]/td[3]/div
                listFrom= driver.find_element_by_xpath('//*[@id="field0056_span"]/span[2]')
                listFrom.click()#打开表单
-               print('ok')
+               logger.info('ok')
                driver.switch_to.default_content()
                getFrame_checkfrom = driver.find_element_by_xpath('//*[contains(@id,"main_iframe_content")]')
                driver.switch_to.frame(getFrame_checkfrom)
@@ -106,7 +112,7 @@ class Perform:
                indexpersent =[]
                #
                filename='Mdict/'+sendmes['send_role']+'.txt'
-               print(filename)
+               logger.info(filename)
                if os.path.exists(filename) and os.path.getsize(filename)!= 0:
                    with open(filename, 'r') as f:
                         for line in f.readlines():
@@ -115,8 +121,8 @@ class Perform:
                else:
                   return 'no temp file found'
                #
-               print(indexarry)
-               print(indexpersent)
+               logger.info(indexarry)
+               logger.info(indexpersent)
                driver.find_element_by_xpath('//*[@id = "rpInputChange"]').send_keys(Keys.BACKSPACE)
                driver.find_element_by_xpath('//*[@id = "rpInputChange"]').send_keys('5')
                driver.find_element_by_xpath('//*[@id="grid_go"]').click()
@@ -137,13 +143,13 @@ class Perform:
                donefrom.click()
                #-----------------填写
                getFrame = driver.find_element_by_id("zwIframe")
-               print('外部')
-               print(getFrame)
+               logger.info('外部')
+               logger.info(getFrame)
                driver.switch_to.frame(getFrame)
                time.sleep(1)
                #填写占比
                block1s= driver.find_elements_by_xpath('//*[@id="field0059_txt"]')
-               print(block1s)
+               logger.info(block1s)
                for block in range(len(block1s)):
                      block1s[block].send_keys(indexpersent[block])
 
@@ -153,17 +159,19 @@ class Perform:
                path=sendmes['xml_path']
                wb = load_workbook(path)
 
-               print(wb.sheetnames)
-               sheet = wb.get_sheet_by_name("Sheet1")
+               logger.info(wb.sheetnames)
+               logger.info(sendmes['group'])
+               logger.info(sendmes['group'])
+               sheetname=sendmes['group']
+               sheet = wb.get_sheet_by_name(sheetname)
                tabRow = sheet.max_row
-
-               print('num:'+str(tabRow))
+               
+               logger.info('num:'+str(tabRow))
                for i in range(2,tabRow):
                   myadd.click()
-               print("add done")
 
                for i in range(1 , tabRow):
-                     print(i)
+                     logger.info(i)
                      sheetB=driver.find_element_by_xpath('//*[@id="formson_24252"]/tbody/tr['+str(i)+']/td[2]/div/span/textarea')
                      sheetB.send_keys(sheet['B' + str(i+1)].value)
                      sheetTime=driver.find_element_by_xpath('//*[@id="formson_24252"]/tbody/tr['+str(i)+']/td[3]/div/span/textarea')
@@ -172,21 +180,20 @@ class Perform:
                      sheetC.send_keys(sheet['C'+str(i+1)].value)
                      sheetD=driver.find_element_by_xpath('//*[@id="formson_24252"]/tbody/tr['+str(i)+']/td[5]/div/span/input[2]')
                      sheetD.send_keys(sheet['D'+str(i+1)].value)
-                     sheetE=driver.find_element_by_xpath('//*[@id="formson_24252"]/tbody/tr['+str(i)+']/td[6]/div/span/textarea')
-                     sheetE.send_keys(sheet['E'+str(i+1)].value)
-               # time.sleep(1000)
-               # time.sleep(200)
-               print("return to main")
+
+                     #sheetE=driver.find_element_by_xpath('//*[@id="formson_24252"]/tbody/tr['+str(i)+']/td[6]/div/span/textarea')
+                     #sheetE.send_keys(sheet['E'+str(i+1)].value)
+               logger.info("return to main")
                driver.switch_to.default_content()
-               print("next do save")
+               logger.info("next do save")
                driver.find_element_by_id("saveDraft_a").click()
-               print("以存储至待发")
+               logger.info('-----------------以存储至待发-----------------------')
+               logger.info("以存储至待发")
                driver.quit()
-               #driver.close()
                return 'ture'
           except Exception as e:
-                #driver.close()
-                print(e)
+
+                logger.error(e)
                 driver.quit()
-                sys.exit()
-                return 'false', e
+
+                return 'false'
