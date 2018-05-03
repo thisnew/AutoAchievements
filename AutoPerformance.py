@@ -1,4 +1,5 @@
 # coding=utf-8
+#
 import unittest
 import logging
 import logging.config
@@ -26,6 +27,9 @@ class Perform:
           try:
                logger.info('----- 开始----')
                driver = webdriver.Chrome(executable_path="bin/chromedriver.exe")
+               #driver = webdriver.Firefox(executable_path="bin/geckodriver.exe")
+
+
                logger.info('-----Install driver----')
                driver.implicitly_wait(3)
                driver.get("http://113.231.68.122/seeyon/index.jsp")
@@ -35,17 +39,18 @@ class Perform:
                elempswd.send_keys(sendmes['en_passwd'])
                elempswd.send_keys(Keys.RETURN)
                driver.get("http://113.231.68.122/seeyon/collaboration/collaboration.do?method=newColl&templateId=-6727894578816138688")
-               #-------中心选择--------------------------------------------------------
+          except Exception as e:
+               return 'chromeerror'
                #中心
-
+          try:
+               logger.info("--执行填写--")
                setDept=sendmes['send_dept']
-               # 部门列表
+               #部门
                # 6377311728366403805-anchor 研发
                # 268599543846224672-anchor 项目
                # 4218208322934425649-anchor 运维
                getFrame = driver.find_element_by_id("zwIframe")
-               #logger.info('外部')
-               #logger.info(getFrame)
+
                driver.switch_to.frame(getFrame)
                datakey=driver.find_element_by_xpath('// *[ @ id = "field0008"]')
                for i in range(20):
@@ -58,7 +63,7 @@ class Perform:
                #返回默认
                driver.switch_to.default_content()
                getSelectPeopleFrame = driver.find_element_by_id("SelectPeopleDialog_main_iframe_content")
-               logger.info('内部：')
+
                logger.info(getSelectPeopleFrame)
                driver.switch_to.frame(getSelectPeopleFrame)
                listroot= driver.find_element_by_id("2384162786666955069-anchor")
@@ -143,7 +148,7 @@ class Perform:
                donefrom.click()
                #-----------------填写
                getFrame = driver.find_element_by_id("zwIframe")
-               logger.info('外部')
+               logger.info('外部框')
                logger.info(getFrame)
                driver.switch_to.frame(getFrame)
                time.sleep(1)
@@ -192,8 +197,7 @@ class Perform:
                driver.quit()
                return 'ture'
           except Exception as e:
-
-                logger.error(e)
-                driver.quit()
-
-                return 'false'
+               logger.info(e)
+               logger.error(e)
+               driver.quit()
+               return 'false'
