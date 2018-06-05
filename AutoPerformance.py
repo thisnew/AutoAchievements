@@ -11,7 +11,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import time
-import sys
+
 import os
 from openpyxl import load_workbook
 
@@ -27,8 +27,6 @@ class Perform:
           try:
                logger.info('----- 开始----')
                driver = webdriver.Chrome(executable_path="bin/chromedriver.exe")
-               #driver = webdriver.Firefox(executable_path="bin/geckodriver.exe")
-
 
                logger.info('-----Install driver----')
                driver.implicitly_wait(3)
@@ -41,14 +39,9 @@ class Perform:
                driver.get("http://113.231.68.122/seeyon/collaboration/collaboration.do?method=newColl&templateId=-6727894578816138688")
           except Exception as e:
                return 'chromeerror'
-               #中心
           try:
                logger.info("--执行填写--")
-               setDept=sendmes['send_dept']
-               #部门
-               # 6377311728366403805-anchor 研发
-               # 268599543846224672-anchor 项目
-               # 4218208322934425649-anchor 运维
+
                getFrame = driver.find_element_by_id("zwIframe")
 
                driver.switch_to.frame(getFrame)
@@ -56,62 +49,18 @@ class Perform:
                for i in range(20):
                   datakey.send_keys(Keys.BACKSPACE)
                driver.find_element_by_xpath('// *[ @ id = "field0008"]').send_keys(sendmes['lastday'])
-               #获取span
-               but_spans_cent = driver.find_element_by_xpath('//*[@id="field0002_span"]/span')
-               logger.info(but_spans_cent)
-               but_spans_cent.click()
-               #返回默认
-               driver.switch_to.default_content()
-               getSelectPeopleFrame = driver.find_element_by_id("SelectPeopleDialog_main_iframe_content")
 
-               logger.info(getSelectPeopleFrame)
-               driver.switch_to.frame(getSelectPeopleFrame)
-               listroot= driver.find_element_by_id("2384162786666955069-anchor")
-               ActionChains(driver).double_click(listroot).perform()
-               listcent=driver.find_element_by_id("-5904001499047966778-anchor")
-               ActionChains(driver).double_click(listcent).perform()
-               driver.execute_script("selectOne()")
-               #确定动作
-               driver.switch_to.default_content()
-               done=driver.find_element_by_link_text("确定")
-               done.click()
-               #---------部门选择-----------------------------------------------------------
-               # 部门
-               logger.info('----- 中心填写完成----')
-               getFrame = driver.find_element_by_id("zwIframe")
                logger.info('外部')
-               logger.info(getFrame)
-               driver.switch_to.frame(getFrame)
-               but_spans_dept = driver.find_element_by_xpath('//*[@id="field0091_span"]/span')
-               logger.info(but_spans_dept)
-               but_spans_dept.click()
-               driver.switch_to.default_content()
-               getSelectPeopleFrame = driver.find_element_by_id("SelectPeopleDialog_main_iframe_content")
-               logger.info('----- 部门填写完成----')
-               logger.info(getSelectPeopleFrame)
-               driver.switch_to.frame(getSelectPeopleFrame)
-               listroot = driver.find_element_by_id(setDept)
-               ActionChains(driver).double_click(listroot).perform()
-               driver.execute_script("selectOne()")
-               # driver.switch_to.active_element
-               # 确定动作
-               driver.switch_to.default_content()
-               done = driver.find_element_by_link_text("确定")
-               done.click()
-               #_____________________________________________
 
-               getFrame = driver.find_element_by_id("zwIframe")
-               logger.info('外部')
-               logger.info(getFrame)
-               driver.switch_to.frame(getFrame)
-               # driver.execute_script("showRelationList(this)")  //*[@id="row-7824964076276987674"]/td[3]/div
-               listFrom= driver.find_element_by_xpath('//*[@id="field0056_span"]/span[2]')
-               listFrom.click()#打开表单
+               driver.execute_script('''$('#field0056_span :last-child').click()''')
+
+               logger.info('click')
+
                logger.info('ok')
+
                driver.switch_to.default_content()
                getFrame_checkfrom = driver.find_element_by_xpath('//*[contains(@id,"main_iframe_content")]')
                driver.switch_to.frame(getFrame_checkfrom)
-                  #//iframe[ends-with(@id,"main_iframe_content")]·
                lenth=0
                indexarry = []
                indexpersent =[]
@@ -172,10 +121,10 @@ class Perform:
                tabRow = sheet.max_row
                
                logger.info('num:'+str(tabRow))
-               for i in range(2,tabRow):
+               for i in range(2, tabRow):
                   myadd.click()
 
-               for i in range(1 , tabRow):
+               for i in range(1, tabRow):
                      logger.info(i)
                      sheetB=driver.find_element_by_xpath('//*[@id="formson_24252"]/tbody/tr['+str(i)+']/td[2]/div/span/textarea')
                      sheetB.send_keys(sheet['B' + str(i+1)].value)
