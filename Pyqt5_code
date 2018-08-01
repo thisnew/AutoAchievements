@@ -1,0 +1,27 @@
+然后输入pyuic5 -o 1.py 1.ui 回车.其中，-o 后的参数为输出文件的名称 -o 后第二个参数即为生成的ui文件的名称
+
+
+pyuic.py test.ui -o testUi.py
+
+
+
+
+4. 将ui文件转换为py文件
+    cmd中打开1.ui所在路径：cd C:/work
+    然后输入pyuic5 -o 1.py 1.ui 回车.其中，-o 后的参数为输出文件的名称 -o 后第二个参数即为生成的ui文件的名称
+
+5. 使用转换后的1.py文件
+   怎么可以直接运行Py文件显示系统界面？需要修改三个地方：
+   1）.py中增加模块引用：
+from PyQt5.QtCore import *
+from PyQt5.QtWidgets import *
+   2）.py中的setupUI(self,Form)函数最后添加语句：
+           Form.show()
+   3）.py文件中添加主函数脚本：
+if __name__ == "__main__":
+    import sys
+    app = QApplication(sys.argv)
+    widget = QWidget(None)
+    Ui_Form().setupUi(widget)
+    sys.exit(app.exec_())
+    pass

@@ -21,3 +21,6 @@
     技术总监value="0"
 build命令
     pyinstaller -F -w ChoiceBoard.py
+
+
+    javac -encoding "utf-8" -Djava.ext.dirs=WebRoot\WEB-INF\lib;D:\Case\apache-tomcat-7.0.82\apache-tomcat-7.0.82\lib; -cp .;WebRoot\WEB-INF\lib; -sourcepath  .;src\  src\com\transfer\service\impl\CapitalServiceImpl.java
