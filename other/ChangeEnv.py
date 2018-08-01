@@ -8,9 +8,10 @@ print(os.environ["path"])
 class ChangeBoard(object):
     def __init__(self):
         self.root = Tk()
-        self.root.title(u'用户登录')
+        self.root.title(u'')
         self.root.resizable(False, False)
         self.root.geometry('350x530+700+300')
+
 
 
 # mydir= "c:\\mydir"
