@@ -1,0 +1,645 @@
+"2018-03-30 15:43:18,928 -main- AutoPerformance.py:27-------- 开始----"
+"2018-03-30 15:43:24,358 -main- AutoPerformance.py:29--------Install driver----"
+"2018-03-30 15:43:29,285 -main- AutoPerformance.py:56---<selenium.webdriver.remote.webelement.WebElement (session="6d720ed32ee32e888e5db85c0746797e", element="0.2572234236947646-2")>"
+"2018-03-30 15:43:30,149 -main- AutoPerformance.py:61---内部："
+"2018-03-30 15:43:30,149 -main- AutoPerformance.py:62---<selenium.webdriver.remote.webelement.WebElement (session="6d720ed32ee32e888e5db85c0746797e", element="0.9462502934338435-2")>"
+"2018-03-30 15:43:30,455 -main- AutoPerformance.py:75-------- 中心填写完成----"
+"2018-03-30 15:43:30,463 -main- AutoPerformance.py:77---外部"
+"2018-03-30 15:43:30,463 -main- AutoPerformance.py:78---<selenium.webdriver.remote.webelement.WebElement (session="6d720ed32ee32e888e5db85c0746797e", element="0.9462502934338435-1")>"
+"2018-03-30 15:43:30,490 -main- AutoPerformance.py:81---<selenium.webdriver.remote.webelement.WebElement (session="6d720ed32ee32e888e5db85c0746797e", element="0.2572234236947646-3")>"
+"2018-03-30 15:43:31,261 -main- AutoPerformance.py:85-------- 部门填写完成----"
+"2018-03-30 15:43:31,261 -main- AutoPerformance.py:86---<selenium.webdriver.remote.webelement.WebElement (session="6d720ed32ee32e888e5db85c0746797e", element="0.9462502934338435-4")>"
+"2018-03-30 15:43:31,441 -main- AutoPerformance.py:99---外部"
+"2018-03-30 15:43:31,441 -main- AutoPerformance.py:100---<selenium.webdriver.remote.webelement.WebElement (session="6d720ed32ee32e888e5db85c0746797e", element="0.9462502934338435-1")>"
+"2018-03-30 15:43:32,277 -main- AutoPerformance.py:105---ok"
+"2018-03-30 15:43:32,323 -main- AutoPerformance.py:115---Mdict/1.txt"
+"2018-03-30 15:43:32,324 -main- AutoPerformance.py:124---['-5793144006709000602', '-7824964076276987674', '-1299658418182470692', '-4603264136243623245', '-7208928452972755358']"
+"2018-03-30 15:43:32,324 -main- AutoPerformance.py:125---['0.1', '0.1', '0.1', '0.1', '0.1']"
+"2018-03-30 15:43:33,194 -main- AutoPerformance.py:146---外部"
+"2018-03-30 15:43:33,194 -main- AutoPerformance.py:147---<selenium.webdriver.remote.webelement.WebElement (session="6d720ed32ee32e888e5db85c0746797e", element="0.9462502934338435-1")>"
+"2018-03-30 15:43:34,222 -main- AutoPerformance.py:152---[<selenium.webdriver.remote.webelement.WebElement (session="6d720ed32ee32e888e5db85c0746797e", element="0.2572234236947646-5")>, <selenium.webdriver.remote.webelement.WebElement (session="6d720ed32ee32e888e5db85c0746797e", element="0.2572234236947646-6")>, <selenium.webdriver.remote.webelement.WebElement (session="6d720ed32ee32e888e5db85c0746797e", element="0.2572234236947646-7")>, <selenium.webdriver.remote.webelement.WebElement (session="6d720ed32ee32e888e5db85c0746797e", element="0.2572234236947646-8")>, <selenium.webdriver.remote.webelement.WebElement (session="6d720ed32ee32e888e5db85c0746797e", element="0.2572234236947646-9")>]"
+"2018-03-30 15:43:35,559 -main- AutoPerformance.py:162---['其他组', '小组一', '小组二', '小组三']"
+"2018-03-30 15:43:35,559 -main- AutoPerformance.py:163---小组二"
+"2018-03-30 15:43:35,559 -main- AutoPerformance.py:164---小组二"
+"2018-03-30 15:43:35,560 -main- AutoPerformance.py:169---num:3"
+"2018-03-30 15:43:35,871 -main- AutoPerformance.py:174---1"
+"2018-03-30 15:43:36,129 -main- AutoPerformance.py:174---2"
+"2018-04-08 14:13:08,906 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 14:13:08,922 -main- AutoPerformance.py:198---Message: 'MicrosoftWebDriver.exe' executable needs to be in PATH. Please download from http://go.microsoft.com/fwlink/?LinkId=619687
+"
+"2018-04-08 14:14:12,500 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 14:14:12,515 -main- AutoPerformance.py:198---Message: 'IEDriverServer.exe' executable needs to be in PATH. Please download from http://selenium-release.storage.googleapis.com/index.html and read up at https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver
+"
+"2018-04-08 14:17:33,729 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 14:17:38,994 -main- AutoPerformance.py:31--------Install driver----"
+"2018-04-08 14:17:39,213 -main- AutoPerformance.py:198---Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-04-08 14:18:01,463 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 14:18:06,689 -main- AutoPerformance.py:31--------Install driver----"
+"2018-04-08 14:19:20,706 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 14:19:20,722 -main- AutoPerformance.py:198---Message: 'geckodriver' executable needs to be in PATH. 
+"
+"2018-04-08 14:26:07,147 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 14:26:13,479 -main- AutoPerformance.py:31--------Install driver----"
+"2018-04-08 14:26:16,711 -main- AutoPerformance.py:198---Alert Text: None
+Message: 
+"
+"2018-04-08 14:26:48,859 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 14:26:54,120 -main- AutoPerformance.py:31--------Install driver----"
+"2018-04-08 14:26:56,650 -main- AutoPerformance.py:198---Alert Text: None
+Message: 
+"
+"2018-04-08 14:27:49,479 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 14:28:50,492 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 14:29:19,062 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 14:29:22,105 -main- AutoPerformance.py:198---Message: Service bin/MicrosoftWebDriver.exe unexpectedly exited. Status code was: 1
+"
+"2018-04-08 14:56:28,645 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 14:56:28,645 -main- AutoPerformance.py:198---Message: 'geckodriver' executable needs to be in PATH. 
+"
+"2018-04-08 14:56:52,254 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 14:56:57,477 -main- AutoPerformance.py:31--------Install driver----"
+"2018-04-08 14:56:59,691 -main- AutoPerformance.py:198---Alert Text: None
+Message: 
+"
+"2018-04-08 14:57:24,673 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 14:57:29,847 -main- AutoPerformance.py:31--------Install driver----"
+"2018-04-08 14:57:36,729 -main- AutoPerformance.py:199---Alert Text: None
+Message: 
+"
+"2018-04-08 14:57:56,691 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 14:58:01,924 -main- AutoPerformance.py:31--------Install driver----"
+"2018-04-08 14:59:46,156 -main- AutoPerformance.py:199---Message: No modal dialog is currently open
+"
+"2018-04-08 15:13:51,534 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 15:13:51,534 -main- AutoPerformance.py:32--------Install driver----"
+"2018-04-08 15:14:34,587 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 15:14:34,587 -main- AutoPerformance.py:32--------Install driver----"
+"2018-04-08 15:16:08,799 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 15:16:08,799 -main- AutoPerformance.py:32--------Install driver----"
+"2018-04-08 15:17:55,607 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 15:17:55,608 -main- AutoPerformance.py:32--------Install driver----"
+"2018-04-08 15:20:03,091 -main- AutoPerformance.py:27-------- 开始----"
+"2018-04-08 15:20:03,091 -main- AutoPerformance.py:32--------Install driver----"
+"2018-04-08 15:33:30,293 -main- AutoPerformance.py:28-------- 开始----"
+"2018-04-08 15:33:30,293 -main- AutoPerformance.py:33--------Install driver----"
+"2018-04-08 15:34:42,201 -main- AutoPerformance.py:28-------- 开始----"
+"2018-04-08 15:34:47,536 -main- AutoPerformance.py:33--------Install driver----"
+"2018-04-08 15:35:46,035 -main- AutoPerformance.py:28-------- 开始----"
+"2018-04-08 15:35:51,287 -main- AutoPerformance.py:33--------Install driver----"
+"2018-05-03 11:23:04,531 -main- AutoPerformance.py:28-------- 开始----"
+"2018-05-03 11:23:10,239 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 10:51:58,108 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 10:52:03,845 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 10:52:06,919 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 10:52:07,856 -main- AutoPerformance.py:58---<selenium.webdriver.remote.webelement.WebElement (session="464f7bb07be6517c1c6231db718f5656", element="0.9440200934402416-2")>"
+"2018-06-05 10:52:08,677 -main- AutoPerformance.py:64---<selenium.webdriver.remote.webelement.WebElement (session="464f7bb07be6517c1c6231db718f5656", element="0.5255099758407524-2")>"
+"2018-06-05 10:52:09,608 -main- AutoPerformance.py:101---外部"
+"2018-06-05 10:52:09,608 -main- AutoPerformance.py:102---<selenium.webdriver.remote.webelement.WebElement (session="464f7bb07be6517c1c6231db718f5656", element="0.5255099758407524-1")>"
+"2018-06-05 10:52:09,705 -main- AutoPerformance.py:197---Message: unknown error: Element <IFRAME id="zwIframe" name="zwIframe" style="border: 0px; width: 100%; height: 699px; display: block;" frameborder="0" marginheight="0" marginwidth="0" onload="_contentSetText()" src="/seeyon/content/content.do?method=index&isFullPage=true&formpage=newcol&isNew=false&moduleId=-6727894578816138688&moduleType=1&rightId=4066602625580287961.6204493566264887476&contentType=20&&originalNeedClone=true&transOfficeId=&viewState=1&rnd=0.02165555405120001" cd_frame_id_="f5f4fab46db337aee4c1c6de8d3ae280"></IFRAME> is not clickable at point (8, 500). Other element would receive the click: <DIV id="68191256_mask" class="mask" style="width:929px;height:888px;z-index:1005;zoom:1;">...</DIV>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 10:52:09,705 -main- AutoPerformance.py:198---Message: unknown error: Element <IFRAME id="zwIframe" name="zwIframe" style="border: 0px; width: 100%; height: 699px; display: block;" frameborder="0" marginheight="0" marginwidth="0" onload="_contentSetText()" src="/seeyon/content/content.do?method=index&isFullPage=true&formpage=newcol&isNew=false&moduleId=-6727894578816138688&moduleType=1&rightId=4066602625580287961.6204493566264887476&contentType=20&&originalNeedClone=true&transOfficeId=&viewState=1&rnd=0.02165555405120001" cd_frame_id_="f5f4fab46db337aee4c1c6de8d3ae280"></IFRAME> is not clickable at point (8, 500). Other element would receive the click: <DIV id="68191256_mask" class="mask" style="width:929px;height:888px;z-index:1005;zoom:1;">...</DIV>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 10:52:37,766 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 10:52:43,182 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 10:52:46,341 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 10:52:47,273 -main- AutoPerformance.py:58---<selenium.webdriver.remote.webelement.WebElement (session="bcf421d8001188ea31f4da9820ea1439", element="0.20873059525125615-2")>"
+"2018-06-05 10:52:47,346 -main- AutoPerformance.py:197---Message: unknown error: Element <IFRAME id="zwIframe" name="zwIframe" style="border: 0px; width: 100%; height: 699px; display: block;" frameborder="0" marginheight="0" marginwidth="0" onload="_contentSetText()" src="/seeyon/content/content.do?method=index&isFullPage=true&formpage=newcol&isNew=false&moduleId=-6727894578816138688&moduleType=1&rightId=4066602625580287961.6204493566264887476&contentType=20&&originalNeedClone=true&transOfficeId=&viewState=1&rnd=0.2525692221776106" cd_frame_id_="a6aac3af4690bd8fc69fc3a2aad652aa"></IFRAME> is not clickable at point (72, 303). Other element would receive the click: <DIV id="checkformError_mask" class="mask" style="width:929px;height:888px;z-index:5000;zoom:1;">...</DIV>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 10:52:47,346 -main- AutoPerformance.py:198---Message: unknown error: Element <IFRAME id="zwIframe" name="zwIframe" style="border: 0px; width: 100%; height: 699px; display: block;" frameborder="0" marginheight="0" marginwidth="0" onload="_contentSetText()" src="/seeyon/content/content.do?method=index&isFullPage=true&formpage=newcol&isNew=false&moduleId=-6727894578816138688&moduleType=1&rightId=4066602625580287961.6204493566264887476&contentType=20&&originalNeedClone=true&transOfficeId=&viewState=1&rnd=0.2525692221776106" cd_frame_id_="a6aac3af4690bd8fc69fc3a2aad652aa"></IFRAME> is not clickable at point (72, 303). Other element would receive the click: <DIV id="checkformError_mask" class="mask" style="width:929px;height:888px;z-index:5000;zoom:1;">...</DIV>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 10:52:59,279 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 10:53:04,636 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 10:53:07,833 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 10:53:08,700 -main- AutoPerformance.py:58---<selenium.webdriver.remote.webelement.WebElement (session="60bf0048545e04bdc7ce7733b127e6e6", element="0.3171473507526381-2")>"
+"2018-06-05 10:53:09,134 -main- AutoPerformance.py:64---<selenium.webdriver.remote.webelement.WebElement (session="60bf0048545e04bdc7ce7733b127e6e6", element="0.15752117925485631-2")>"
+"2018-06-05 10:53:10,094 -main- AutoPerformance.py:101---外部"
+"2018-06-05 10:53:10,095 -main- AutoPerformance.py:102---<selenium.webdriver.remote.webelement.WebElement (session="60bf0048545e04bdc7ce7733b127e6e6", element="0.15752117925485631-1")>"
+"2018-06-05 10:53:10,195 -main- AutoPerformance.py:197---Message: unknown error: Element <IFRAME id="zwIframe" name="zwIframe" style="border: 0px; width: 100%; height: 699px; display: block;" frameborder="0" marginheight="0" marginwidth="0" onload="_contentSetText()" src="/seeyon/content/content.do?method=index&isFullPage=true&formpage=newcol&isNew=false&moduleId=-6727894578816138688&moduleType=1&rightId=4066602625580287961.6204493566264887476&contentType=20&&originalNeedClone=true&transOfficeId=&viewState=1&rnd=0.0038225012841194284" cd_frame_id_="85503f6dab4b989488888587b27ec72d"></IFRAME> is not clickable at point (8, 500). Other element would receive the click: <DIV id="40620590_mask" class="mask" style="width:929px;height:888px;z-index:1005;zoom:1;">...</DIV>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 10:53:10,195 -main- AutoPerformance.py:198---Message: unknown error: Element <IFRAME id="zwIframe" name="zwIframe" style="border: 0px; width: 100%; height: 699px; display: block;" frameborder="0" marginheight="0" marginwidth="0" onload="_contentSetText()" src="/seeyon/content/content.do?method=index&isFullPage=true&formpage=newcol&isNew=false&moduleId=-6727894578816138688&moduleType=1&rightId=4066602625580287961.6204493566264887476&contentType=20&&originalNeedClone=true&transOfficeId=&viewState=1&rnd=0.0038225012841194284" cd_frame_id_="85503f6dab4b989488888587b27ec72d"></IFRAME> is not clickable at point (8, 500). Other element would receive the click: <DIV id="40620590_mask" class="mask" style="width:929px;height:888px;z-index:1005;zoom:1;">...</DIV>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 10:56:18,558 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 10:56:23,984 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 10:56:26,656 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 10:56:27,517 -main- AutoPerformance.py:58---<selenium.webdriver.remote.webelement.WebElement (session="7682211949722e0d89d76a4fb23af24a", element="0.798295192838069-2")>"
+"2018-06-05 10:56:27,934 -main- AutoPerformance.py:101---外部"
+"2018-06-05 10:56:27,934 -main- AutoPerformance.py:102---<selenium.webdriver.remote.webelement.WebElement (session="7682211949722e0d89d76a4fb23af24a", element="0.6223734005276589-1")>"
+"2018-06-05 10:56:28,068 -main- AutoPerformance.py:197---Message: unknown error: Element <IFRAME id="zwIframe" name="zwIframe" style="border: 0px; width: 100%; height: 699px; display: block;" frameborder="0" marginheight="0" marginwidth="0" onload="_contentSetText()" src="/seeyon/content/content.do?method=index&isFullPage=true&formpage=newcol&isNew=false&moduleId=-6727894578816138688&moduleType=1&rightId=4066602625580287961.6204493566264887476&contentType=20&&originalNeedClone=true&transOfficeId=&viewState=1&rnd=0.6299027904284644" cd_frame_id_="149259bf9be12413c33ffb9f8ae41b42"></IFRAME> is not clickable at point (8, 500). Other element would receive the click: <DIV id="SelectPeopleDialog_mask" class="mask" style="width:100%;height:888px;z-index:1000;zoom:1">...</DIV>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 10:56:28,068 -main- AutoPerformance.py:198---Message: unknown error: Element <IFRAME id="zwIframe" name="zwIframe" style="border: 0px; width: 100%; height: 699px; display: block;" frameborder="0" marginheight="0" marginwidth="0" onload="_contentSetText()" src="/seeyon/content/content.do?method=index&isFullPage=true&formpage=newcol&isNew=false&moduleId=-6727894578816138688&moduleType=1&rightId=4066602625580287961.6204493566264887476&contentType=20&&originalNeedClone=true&transOfficeId=&viewState=1&rnd=0.6299027904284644" cd_frame_id_="149259bf9be12413c33ffb9f8ae41b42"></IFRAME> is not clickable at point (8, 500). Other element would receive the click: <DIV id="SelectPeopleDialog_mask" class="mask" style="width:100%;height:888px;z-index:1000;zoom:1">...</DIV>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 10:57:40,206 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 10:57:45,593 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 10:57:49,708 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 10:57:50,562 -main- AutoPerformance.py:58---<selenium.webdriver.remote.webelement.WebElement (session="036e87b1824e07a538aeee8a141e664e", element="0.3775404175084922-2")>"
+"2018-06-05 10:57:54,338 -main- AutoPerformance.py:197---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="field0056_span"]/span[2]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 10:57:54,338 -main- AutoPerformance.py:198---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="field0056_span"]/span[2]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 10:58:32,580 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 10:58:37,961 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 10:58:41,399 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 10:58:42,745 -main- AutoPerformance.py:107---ok"
+"2018-06-05 10:58:45,778 -main- AutoPerformance.py:197---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,"main_iframe_content")]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 10:58:45,778 -main- AutoPerformance.py:198---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,"main_iframe_content")]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:00:53,838 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:00:59,265 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:01:03,125 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:01:04,401 -main- AutoPerformance.py:107---ok"
+"2018-06-05 11:01:07,430 -main- AutoPerformance.py:197---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,"main_iframe_content")]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:01:07,430 -main- AutoPerformance.py:198---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,"main_iframe_content")]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:04:37,596 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:04:42,991 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:04:46,813 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:04:50,696 -main- AutoPerformance.py:198---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="field0056_span"]/span[2]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:04:50,696 -main- AutoPerformance.py:199---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="field0056_span"]/span[2]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:06:50,172 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:06:55,615 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:06:58,441 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:06:59,335 -main- AutoPerformance.py:106---<selenium.webdriver.chrome.webdriver.WebDriver (session="3a8b3a1704207d8c4d90e74b04cfec68")>"
+"2018-06-05 11:06:59,746 -main- AutoPerformance.py:109---ok"
+"2018-06-05 11:07:02,781 -main- AutoPerformance.py:199---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,"main_iframe_content")]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:07:02,781 -main- AutoPerformance.py:200---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,"main_iframe_content")]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:18:34,900 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:18:40,341 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:18:43,950 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:18:45,183 -main- AutoPerformance.py:109---ok"
+"2018-06-05 11:19:05,213 -main- AutoPerformance.py:201---Message: invalid selector: Unable to locate an element with the xpath expression //*[ends-with(@id,"main_iframe_content")] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[ends-with(@id,"main_iframe_content")]' is not a valid XPath expression.
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:19:05,213 -main- AutoPerformance.py:202---Message: invalid selector: Unable to locate an element with the xpath expression //*[ends-with(@id,"main_iframe_content")] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[ends-with(@id,"main_iframe_content")]' is not a valid XPath expression.
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:21:16,699 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:21:22,081 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:21:24,925 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:21:25,803 -main- AutoPerformance.py:200---Message: unknown error: Cannot read property 'showView' of undefined
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:21:25,803 -main- AutoPerformance.py:201---Message: unknown error: Cannot read property 'showView' of undefined
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:23:04,160 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:23:09,639 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:23:12,947 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:23:16,235 -main- AutoPerformance.py:205---Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:23:16,235 -main- AutoPerformance.py:206---Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:24:25,684 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:24:31,124 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:24:34,378 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:24:35,657 -main- AutoPerformance.py:107---ok"
+"2018-06-05 11:24:55,681 -main- AutoPerformance.py:199---Message: invalid selector: Unable to locate an element with the xpath expression //*[ends-with(@id,"main_iframe_content")] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[ends-with(@id,"main_iframe_content")]' is not a valid XPath expression.
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:24:55,681 -main- AutoPerformance.py:200---Message: invalid selector: Unable to locate an element with the xpath expression //*[ends-with(@id,"main_iframe_content")] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[ends-with(@id,"main_iframe_content")]' is not a valid XPath expression.
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:26:48,938 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:26:54,852 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:26:57,682 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:27:01,605 -main- AutoPerformance.py:199---Message: no such element: Unable to locate element: {"method":"id","selector":"zwIframe"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:27:01,605 -main- AutoPerformance.py:200---Message: no such element: Unable to locate element: {"method":"id","selector":"zwIframe"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:28:35,976 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:28:41,282 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:28:45,202 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:28:46,056 -main- AutoPerformance.py:96---归位"
+"2018-06-05 11:28:46,064 -main- AutoPerformance.py:102---外部"
+"2018-06-05 11:28:46,804 -main- AutoPerformance.py:108---ok"
+"2018-06-05 11:29:06,828 -main- AutoPerformance.py:200---Message: invalid selector: Unable to locate an element with the xpath expression //*[ends-with(@id,"main_iframe_content")] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[ends-with(@id,"main_iframe_content")]' is not a valid XPath expression.
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:29:06,828 -main- AutoPerformance.py:201---Message: invalid selector: Unable to locate an element with the xpath expression //*[ends-with(@id,"main_iframe_content")] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[ends-with(@id,"main_iframe_content")]' is not a valid XPath expression.
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:30:08,343 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:30:13,812 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:30:16,667 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:30:17,533 -main- AutoPerformance.py:96---归位"
+"2018-06-05 11:30:17,541 -main- AutoPerformance.py:102---外部"
+"2018-06-05 11:30:17,980 -main- AutoPerformance.py:108---ok"
+"2018-06-05 11:30:21,013 -main- AutoPerformance.py:199---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,"main_iframe_content")]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:30:21,013 -main- AutoPerformance.py:200---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,"main_iframe_content")]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:31:26,240 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:31:31,627 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:31:35,400 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:31:35,993 -main- AutoPerformance.py:96---归位"
+"2018-06-05 11:31:36,000 -main- AutoPerformance.py:102---外部"
+"2018-06-05 11:31:36,428 -main- AutoPerformance.py:108---ok"
+"2018-06-05 11:31:59,482 -main- AutoPerformance.py:199---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,"main_iframe_content")]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:31:59,482 -main- AutoPerformance.py:200---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,"main_iframe_content")]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:39:24,367 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:39:29,823 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:39:34,859 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:39:35,722 -main- AutoPerformance.py:101---外部"
+"2018-06-05 11:39:41,125 -main- AutoPerformance.py:107---5min"
+"2018-06-05 11:39:46,135 -main- AutoPerformance.py:202---Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:39:46,136 -main- AutoPerformance.py:203---Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:40:21,066 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:40:26,375 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:40:30,195 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:40:31,053 -main- AutoPerformance.py:101---外部"
+"2018-06-05 11:40:56,472 -main- AutoPerformance.py:111---ok"
+"2018-06-05 11:40:59,510 -main- AutoPerformance.py:202---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,"main_iframe_content")]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:40:59,510 -main- AutoPerformance.py:203---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,"main_iframe_content")]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:43:48,000 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:43:53,437 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:44:00,548 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:44:01,406 -main- AutoPerformance.py:101---外部"
+"2018-06-05 11:44:01,819 -main- AutoPerformance.py:109---click"
+"2018-06-05 11:45:23,704 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:45:28,942 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:45:32,713 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:45:33,321 -main- AutoPerformance.py:101---外部"
+"2018-06-05 11:45:33,788 -main- AutoPerformance.py:109---click"
+"2018-06-05 11:45:58,790 -main- AutoPerformance.py:111---ok"
+"2018-06-05 11:45:58,839 -main- AutoPerformance.py:122---Mdict/1.txt"
+"2018-06-05 11:45:58,844 -main- AutoPerformance.py:131---['-5793144006709000602', '-7824964076276987674', '-1299658418182470692', '-4603264136243623245', '-7208928452972755358']"
+"2018-06-05 11:45:58,844 -main- AutoPerformance.py:132---['0.1', '0.1', '0.1', '0.1', '0.1']"
+"2018-06-05 11:45:59,708 -main- AutoPerformance.py:153---外部框"
+"2018-06-05 11:45:59,715 -main- AutoPerformance.py:154---<selenium.webdriver.remote.webelement.WebElement (session="2111c492524843b7b2c82f748fa82ddf", element="0.0837430343258958-1")>"
+"2018-06-05 11:46:00,762 -main- AutoPerformance.py:159---[<selenium.webdriver.remote.webelement.WebElement (session="2111c492524843b7b2c82f748fa82ddf", element="0.3777383851767291-3")>, <selenium.webdriver.remote.webelement.WebElement (session="2111c492524843b7b2c82f748fa82ddf", element="0.3777383851767291-4")>, <selenium.webdriver.remote.webelement.WebElement (session="2111c492524843b7b2c82f748fa82ddf", element="0.3777383851767291-5")>, <selenium.webdriver.remote.webelement.WebElement (session="2111c492524843b7b2c82f748fa82ddf", element="0.3777383851767291-6")>, <selenium.webdriver.remote.webelement.WebElement (session="2111c492524843b7b2c82f748fa82ddf", element="0.3777383851767291-7")>]"
+"2018-06-05 11:46:02,053 -main- AutoPerformance.py:169---['其他组', '小组一', '小组二', '小组三', '吴总']"
+"2018-06-05 11:46:02,054 -main- AutoPerformance.py:170---小组二"
+"2018-06-05 11:46:02,054 -main- AutoPerformance.py:171---小组二"
+"2018-06-05 11:46:02,054 -main- AutoPerformance.py:176---num:3"
+"2018-06-05 11:46:03,078 -main- AutoPerformance.py:181---1"
+"2018-06-05 11:46:03,332 -main- AutoPerformance.py:181---2"
+"2018-06-05 11:46:03,829 -main- AutoPerformance.py:193---return to main"
+"2018-06-05 11:46:03,833 -main- AutoPerformance.py:195---next do save"
+"2018-06-05 11:46:04,338 -main- AutoPerformance.py:197--------------------以存储至待发-----------------------"
+"2018-06-05 11:46:04,338 -main- AutoPerformance.py:198---以存储至待发"
+"2018-06-05 11:46:46,964 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:46:52,365 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:46:55,807 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:46:56,668 -main- AutoPerformance.py:101---外部"
+"2018-06-05 11:46:57,095 -main- AutoPerformance.py:109---click"
+"2018-06-05 11:47:22,096 -main- AutoPerformance.py:111---ok"
+"2018-06-05 11:47:25,123 -main- AutoPerformance.py:202---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,"main_iframe_content")]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:47:25,123 -main- AutoPerformance.py:203---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,"main_iframe_content")]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:50:18,215 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 11:50:23,645 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 11:50:27,097 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 11:50:27,959 -main- AutoPerformance.py:101---外部"
+"2018-06-05 11:50:27,982 -main- AutoPerformance.py:203---Message: javascript error: Cannot read property 'showView' of undefined
+JavaScript stack:
+TypeError: Cannot read property 'showView' of undefined
+    at showRelationList (http://113.231.68.122/seeyon/common/content/form.js?V=V6_0SP1_2017-10-14:3826:29)
+    at eval (eval at executeAsyncScript (:457:5), <anonymous>:2:20)
+    at eval (eval at executeAsyncScript (:457:5), <anonymous>:2:45)
+    at executeAsyncScript (<anonymous>:457:26)
+    at <anonymous>:473:29
+    at callFunction (<anonymous>:361:33)
+    at <anonymous>:371:23
+    at <anonymous>:372:3
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 11:50:27,982 -main- AutoPerformance.py:204---Message: javascript error: Cannot read property 'showView' of undefined
+JavaScript stack:
+TypeError: Cannot read property 'showView' of undefined
+    at showRelationList (http://113.231.68.122/seeyon/common/content/form.js?V=V6_0SP1_2017-10-14:3826:29)
+    at eval (eval at executeAsyncScript (:457:5), <anonymous>:2:20)
+    at eval (eval at executeAsyncScript (:457:5), <anonymous>:2:45)
+    at executeAsyncScript (<anonymous>:457:26)
+    at <anonymous>:473:29
+    at callFunction (<anonymous>:361:33)
+    at <anonymous>:371:23
+    at <anonymous>:372:3
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 12:31:36,364 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 12:31:41,590 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 12:31:48,141 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 12:31:48,718 -main- AutoPerformance.py:101---外部"
+"2018-06-05 12:31:49,507 -main- AutoPerformance.py:200---Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 12:31:49,507 -main- AutoPerformance.py:201---Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 12:34:51,780 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 12:34:57,029 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 12:35:01,774 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 12:35:02,381 -main- AutoPerformance.py:101---外部"
+"2018-06-05 12:35:03,244 -main- AutoPerformance.py:106---dubboclick"
+"2018-06-05 12:35:03,251 -main- AutoPerformance.py:201---Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 12:35:03,251 -main- AutoPerformance.py:202---Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 12:36:29,704 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 12:36:35,246 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 12:36:41,808 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 12:36:42,476 -main- AutoPerformance.py:101---外部"
+"2018-06-05 12:36:43,225 -main- AutoPerformance.py:107---dubboclick"
+"2018-06-05 12:36:43,225 -main- AutoPerformance.py:202---'NoneType' object has no attribute 'click'"
+"2018-06-05 12:36:43,226 -main- AutoPerformance.py:203---'NoneType' object has no attribute 'click'"
+"2018-06-05 12:37:17,291 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 12:37:22,724 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 12:37:26,505 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 12:37:27,379 -main- AutoPerformance.py:101---外部"
+"2018-06-05 12:37:27,785 -main- AutoPerformance.py:107---dubboclick"
+"2018-06-05 12:37:27,794 -main- AutoPerformance.py:202---Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 12:37:27,795 -main- AutoPerformance.py:203---Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 12:39:30,732 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 12:39:36,173 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 12:39:40,575 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 12:39:41,414 -main- AutoPerformance.py:101---外部"
+"2018-06-05 12:39:41,765 -main- AutoPerformance.py:107---dubboclick"
+"2018-06-05 12:39:41,765 -main- AutoPerformance.py:202---'str' object has no attribute 'click'"
+"2018-06-05 12:39:41,765 -main- AutoPerformance.py:203---'str' object has no attribute 'click'"
+"2018-06-05 12:40:42,922 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 12:40:48,312 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 12:40:52,609 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 12:40:53,203 -main- AutoPerformance.py:101---外部"
+"2018-06-05 12:40:53,224 -main- AutoPerformance.py:202---'str' object has no attribute 'id'"
+"2018-06-05 12:40:53,224 -main- AutoPerformance.py:203---'str' object has no attribute 'id'"
+"2018-06-05 12:42:23,046 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 12:42:28,435 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 12:42:32,131 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 12:42:32,999 -main- AutoPerformance.py:101---外部"
+"2018-06-05 12:42:33,529 -main- AutoPerformance.py:107---dubboclick"
+"2018-06-05 12:42:33,529 -main- AutoPerformance.py:202---'NoneType' object has no attribute 'click'"
+"2018-06-05 12:42:33,529 -main- AutoPerformance.py:203---'NoneType' object has no attribute 'click'"
+"2018-06-05 12:43:05,194 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 12:43:10,622 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 12:43:14,060 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 12:43:14,944 -main- AutoPerformance.py:101---外部"
+"2018-06-05 12:43:15,364 -main- AutoPerformance.py:106---dubboclick"
+"2018-06-05 12:43:15,364 -main- AutoPerformance.py:201---'NoneType' object has no attribute 'click'"
+"2018-06-05 12:43:15,364 -main- AutoPerformance.py:202---'NoneType' object has no attribute 'click'"
+"2018-06-05 12:44:00,356 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 12:44:05,723 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 12:44:09,397 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 12:44:10,267 -main- AutoPerformance.py:101---外部"
+"2018-06-05 12:44:10,686 -main- AutoPerformance.py:108---click"
+"2018-06-05 12:44:35,686 -main- AutoPerformance.py:110---ok"
+"2018-06-05 12:44:38,749 -main- AutoPerformance.py:201---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,"main_iframe_content")]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 12:44:38,749 -main- AutoPerformance.py:202---Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,"main_iframe_content")]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 12:54:14,694 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 12:54:20,218 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 12:54:23,559 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 12:54:24,407 -main- AutoPerformance.py:101---外部"
+"2018-06-05 12:54:24,428 -main- AutoPerformance.py:202---Message: unknown error: Runtime.evaluate threw exception: SyntaxError: missing ) after argument list
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 12:54:24,428 -main- AutoPerformance.py:203---Message: unknown error: Runtime.evaluate threw exception: SyntaxError: missing ) after argument list
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 12:54:48,810 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 12:54:54,208 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 12:54:57,614 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 12:54:58,497 -main- AutoPerformance.py:101---外部"
+"2018-06-05 12:54:58,520 -main- AutoPerformance.py:202---Message: javascript error: missing ) after argument list
+JavaScript stack:
+SyntaxError: missing ) after argument list
+    at new Function (<anonymous>)
+    at executeAsyncScript (<anonymous>:457:5)
+    at <anonymous>:473:29
+    at callFunction (<anonymous>:361:33)
+    at <anonymous>:371:23
+    at <anonymous>:372:3
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 12:54:58,520 -main- AutoPerformance.py:203---Message: javascript error: missing ) after argument list
+JavaScript stack:
+SyntaxError: missing ) after argument list
+    at new Function (<anonymous>)
+    at executeAsyncScript (<anonymous>:457:5)
+    at <anonymous>:473:29
+    at callFunction (<anonymous>:361:33)
+    at <anonymous>:371:23
+    at <anonymous>:372:3
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 12:59:28,492 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 12:59:33,875 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 12:59:36,884 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 12:59:37,727 -main- AutoPerformance.py:101---外部"
+"2018-06-05 12:59:37,750 -main- AutoPerformance.py:202---Message: javascript error: document.selectNodes is not a function
+JavaScript stack:
+TypeError: document.selectNodes is not a function
+    at eval (eval at executeAsyncScript (:457:5), <anonymous>:2:29)
+    at eval (eval at executeAsyncScript (:457:5), <anonymous>:2:88)
+    at executeAsyncScript (<anonymous>:457:26)
+    at <anonymous>:473:29
+    at callFunction (<anonymous>:361:33)
+    at <anonymous>:371:23
+    at <anonymous>:372:3
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 12:59:37,750 -main- AutoPerformance.py:203---Message: javascript error: document.selectNodes is not a function
+JavaScript stack:
+TypeError: document.selectNodes is not a function
+    at eval (eval at executeAsyncScript (:457:5), <anonymous>:2:29)
+    at eval (eval at executeAsyncScript (:457:5), <anonymous>:2:88)
+    at executeAsyncScript (<anonymous>:457:26)
+    at <anonymous>:473:29
+    at callFunction (<anonymous>:361:33)
+    at <anonymous>:371:23
+    at <anonymous>:372:3
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 13:00:05,490 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 13:00:10,891 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 13:00:13,754 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 13:00:14,687 -main- AutoPerformance.py:101---外部"
+"2018-06-05 13:00:14,710 -main- AutoPerformance.py:202---Message: javascript error: missing ) after argument list
+JavaScript stack:
+SyntaxError: missing ) after argument list
+    at new Function (<anonymous>)
+    at executeAsyncScript (<anonymous>:457:5)
+    at <anonymous>:473:29
+    at callFunction (<anonymous>:361:33)
+    at <anonymous>:371:23
+    at <anonymous>:372:3
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 13:00:14,710 -main- AutoPerformance.py:203---Message: javascript error: missing ) after argument list
+JavaScript stack:
+SyntaxError: missing ) after argument list
+    at new Function (<anonymous>)
+    at executeAsyncScript (<anonymous>:457:5)
+    at <anonymous>:473:29
+    at callFunction (<anonymous>:361:33)
+    at <anonymous>:371:23
+    at <anonymous>:372:3
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 13:06:49,508 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 13:06:54,931 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 13:06:57,689 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 13:06:58,572 -main- AutoPerformance.py:101---外部"
+"2018-06-05 13:07:28,826 -main- AutoPerformance.py:202---Message: asynchronous script timeout: result was not received in 30 seconds
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 13:07:28,826 -main- AutoPerformance.py:203---Message: asynchronous script timeout: result was not received in 30 seconds
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 13:08:33,865 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 13:08:39,039 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 13:08:41,648 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 13:08:42,610 -main- AutoPerformance.py:101---外部"
+"2018-06-05 13:09:12,797 -main- AutoPerformance.py:202---Message: asynchronous script timeout: result was not received in 30 seconds
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 13:09:12,797 -main- AutoPerformance.py:203---Message: asynchronous script timeout: result was not received in 30 seconds
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64)
+"
+"2018-06-05 13:09:25,040 -main- AutoPerformance.py:28-------- 开始----"
+"2018-06-05 13:09:30,289 -main- AutoPerformance.py:31--------Install driver----"
+"2018-06-05 13:09:33,499 -main- AutoPerformance.py:43-----执行填写--"
+"2018-06-05 13:09:34,356 -main- AutoPerformance.py:101---外部"
+"2018-06-05 13:09:34,557 -main- AutoPerformance.py:109---click"
+"2018-06-05 13:09:34,557 -main- AutoPerformance.py:111---ok"
+"2018-06-05 13:09:34,624 -main- AutoPerformance.py:122---Mdict/1.txt"
+"2018-06-05 13:09:34,624 -main- AutoPerformance.py:131---['-5793144006709000602', '-7824964076276987674', '-1299658418182470692', '-4603264136243623245', '-7208928452972755358']"
+"2018-06-05 13:09:34,625 -main- AutoPerformance.py:132---['0.1', '0.1', '0.1', '0.1', '0.1']"
+"2018-06-05 13:09:36,413 -main- AutoPerformance.py:153---外部框"
+"2018-06-05 13:09:36,414 -main- AutoPerformance.py:154---<selenium.webdriver.remote.webelement.WebElement (session="501998d8a9dd1a6a8394edc5915bc927", element="0.5974183237451522-1")>"
+"2018-06-05 13:09:37,446 -main- AutoPerformance.py:159---[<selenium.webdriver.remote.webelement.WebElement (session="501998d8a9dd1a6a8394edc5915bc927", element="0.44671422274835604-2")>, <selenium.webdriver.remote.webelement.WebElement (session="501998d8a9dd1a6a8394edc5915bc927", element="0.44671422274835604-3")>, <selenium.webdriver.remote.webelement.WebElement (session="501998d8a9dd1a6a8394edc5915bc927", element="0.44671422274835604-4")>, <selenium.webdriver.remote.webelement.WebElement (session="501998d8a9dd1a6a8394edc5915bc927", element="0.44671422274835604-5")>, <selenium.webdriver.remote.webelement.WebElement (session="501998d8a9dd1a6a8394edc5915bc927", element="0.44671422274835604-6")>]"
+"2018-06-05 13:09:38,830 -main- AutoPerformance.py:169---['其他组', '小组一', '小组二', '小组三', '吴总']"
+"2018-06-05 13:09:38,830 -main- AutoPerformance.py:170---小组二"
+"2018-06-05 13:09:38,830 -main- AutoPerformance.py:171---小组二"
+"2018-06-05 13:09:38,831 -main- AutoPerformance.py:176---num:3"
+"2018-06-05 13:09:39,491 -main- AutoPerformance.py:181---1"
+"2018-06-05 13:09:39,749 -main- AutoPerformance.py:181---2"
+"2018-06-05 13:09:40,233 -main- AutoPerformance.py:193---return to main"
+"2018-06-05 13:09:40,236 -main- AutoPerformance.py:195---next do save"
+"2018-06-05 13:09:40,838 -main- AutoPerformance.py:197--------------------以存储至待发-----------------------"
+"2018-06-05 13:09:40,838 -main- AutoPerformance.py:198---以存储至待发"
